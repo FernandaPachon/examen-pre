@@ -3,6 +3,8 @@ import os
 
 load_dotenv()
 
+load_dotenv()
+
 app = os.getenv("APP_NAME", "sin nombre")
 version = os.getenv("APP_VERSION", "1.0")
 debug = os.getenv("DEBUG", "False")
